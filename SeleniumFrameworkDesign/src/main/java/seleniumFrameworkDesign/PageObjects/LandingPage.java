@@ -28,6 +28,8 @@ public class LandingPage  extends AbstractComponent{
 	WebElement lgnbtn;
 	
 	
+	
+	
 	public ProductCatalogue loginToApplication(String email, String pass) {
 		userEmail.sendKeys(email);
 		userPass.sendKeys(pass);
